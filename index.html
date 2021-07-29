@@ -92,6 +92,16 @@
 }
 }   
 
+@media (max-width: 780px) {
+#KTMC-logo, #ST-logo{
+    width: 180px; 
+}
+
+#ST-logo {
+    margin-left: -25px; 
+}
+}
+
 
 /* ============ small devices .end// ============ */
 </style>
@@ -116,7 +126,7 @@
 
 
 
-<div class="container">
+<div class="container" data-aos="fade-right">
 
 
 
@@ -124,8 +134,8 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
  <div class="container-fluid">
-     <a class="navbar-logo" data-aos="fade-right"><img src="KTMClogo.png"></a>&nbsp; &nbsp; &nbsp; 
-     <a class="navbar-logo" data-aos="fade-left"><img src="STlogo2.png"></a>
+     <a class="navbar-logo"><img src="KTMClogo.png" id="KTMC-logo"></a>&nbsp; &nbsp; &nbsp; 
+     <a class="navbar-logo"><img src="STlogo2.png" id="ST-logo"></a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
  </button>

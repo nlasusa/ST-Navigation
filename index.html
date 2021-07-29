@@ -38,6 +38,10 @@
     color: black;   
 }
 
+#logout {
+    margin-left: 10px; 
+}
+
 
 @media all and (min-width: 992px) {
     .dropdown-menu li{
@@ -78,72 +82,57 @@
 
 /* ============ small devices ============ */
 @media (max-width: 991px) {
-
-
 .dropdown-menu .dropdown-menu{
     margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
     }
 
     .nav-link {
     margin-top: 10px;
-}
+    }
 }   
 
 @media (max-width: 750px) {
 .nav-link {
     margin-top: 10px;
-}
+    }
 }   
 
 /* // MOBILE VIEW */
 @media (max-width: 450px) {
-#ST-logo{
+#ST-logo {
     width: 160px; 
-}
+    }
 
-#KTMC-logo{
+#KTMC-logo {
     width: 150px; 
-}
+    }
 
 #ST-logo {
     margin-left: -25px; 
-}
+    }
 
 .navbar-toggler {
     margin-top: 15px;
+    }
 }
-}
-
-
 /* ============ small devices .end// ============ */
 </style>
 
 
 
-
-
-
 </head>
-
 <body>
-
-
 
 <header class="section-header py-4">
 </header> <!-- section-header.// -->
 
 
-
-
-
-
-
+<!-- // CONTAINER -->
 <div class="container" data-aos="fade-right">
 
 
 
 <!-- ============= COMPONENT ============== -->
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
  <div class="container-fluid">
      <a class="navbar-logo"><img src="KTMClogo.png" id="KTMC-logo"></a>&nbsp; &nbsp; &nbsp; 
@@ -164,33 +153,41 @@
                 <ul class="submenu submenu-left dropdown-menu">
                     <li><a class="dropdown-item" href="">Client #1</a>
                         <ul class="submenu submenu-left dropdown-menu">
-                            <li><a class="dropdown-item" href="">Client #1</a></li>
-                            <li><a class="dropdown-item" href="">Client #1</a></li>
+                            <li><a class="dropdown-item" href="">Client #1</a>
+                                <ul class="submenu submenu-left dropdown-menu">
+                                    <li><a class="dropdown-item" href="">Client #1</a></li>
+                                    <li><a class="dropdown-item" href="">Client #1</a></li>
+                                </ul>
+                            <li><a class="dropdown-item" href="">Client #1</a>
+                                <ul class="submenu submenu-left dropdown-menu">
+                                    <li><a class="dropdown-item" href="">Client #1</a></li>
+                                    <li><a class="dropdown-item" href="">Client #1</a></li>
+                                </ul>
                         </ul>
                     <li><a class="dropdown-item" href="">Client #2</a></li>
                     <li><a class="dropdown-item" href="">Client #3</a>
                         <ul class="submenu submenu-left dropdown-menu">
-                            <li><a class="dropdown-item" href="">Client 3's II</a></li>
+                            <li><a class="dropdown-item" href="">Client #3</a>
+                                <ul class="submenu submenu-left dropdown-menu">
+                                    <li><a class="dropdown-item" href="">Client #3</a></li>
+                                    <li><a class="dropdown-item" href="">Client #3</a></li>
+                                </ul>
                         </ul>
                  </ul>
               </li>
               <li><a class="dropdown-item" href="#"> Unsubscribe </a></li>
               <li><a class="dropdown-item" href="#"> Notification </a></li>
-              <li><a class="dropdown-item" href="#"> Log Out </a></li>
+              <li><a class="dropdown-item" href="#"> Log Out<img src="logout.png" id="logout"></a></li>
             </ul>
         </li>
     </ul>
-
   </div> <!-- navbar-collapse.// -->
  </div> <!-- container-fluid.// -->
 </nav>
-
-
-
 <!-- ============= COMPONENT END// ============== -->
 
 
-</div><!-- container //  -->
+</div><!-- CONTAINER //  -->
 
  <!-- // JS -->
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
